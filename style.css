@@ -1,61 +1,95 @@
 element.style {
-  --alfWww-_version: 1;
+ --alfWww-_version: 1;
   --alfWww-page: #fcfcfc;
   --alfWww-page-colorScheme: light;
   --alfWww-navbar: #0074bd;
   --alfWww-navbar-text: #ffffff;
 }
 html, body {
-    background-color: var(--alfWww-page);
-    color-scheme: var(--alfWww-page-colorScheme);
+  background-color: var(--alfWww-page);
+  color-scheme: var(--alfWww-page-colorScheme);
 }
 html, body {
-    display: block;
-    margin: 0;
-    background-color: #4d97ff;
-    padding: 0;
-    color: #575e75;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  display: block;
+  margin: 0;
+  background-color: #4d97ff;
+  padding: 0;
+  color: #575e75;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 h1, h2, h3 {
   font-family: "Shag Lounge";
 }
 html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 html[Attributes Style] {
-    -webkit-locale: "en-US";
+  -webkit-locale: "en-US";
 }
 body {
-    margin: 0;
+  margin: 0;
 }
 user agent stylesheet
 body {
-    display: block;
-    margin: 8px;
+  display: block;
+  margin: 8px;
 }
 #navigation, .dropdown, .dropdown.with-arrow::before, .user-projects-modal .user-projects-modal-title, .transfer-host-modal .transfer-host-title {
-    background-color: var(--alfWww-navbar);
-    color: var(--alfWww-navbar-text);
+  background-color: var(--alfWww-navbar);
+  color: var(--alfWww-navbar-text);
 }
 #navigation {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: 0 0 3px rgba(0, 0, 0, .25);
-    background-color: #0074bd;
-    width: 100%;
-    height: 32px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+  background-color: #0074bd;
+  width: 100%;
+  height: 32px;
 }
 nav {
-    display: block;
+  display: block;
 }
 nav {
-    display: block;
-    unicode-bidi: isolate;
+  display: block;
+  unicode-bidi: isolate;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #navigation .inner {
+    width: 28.75em;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .inner {
+    margin: 0 auto;
+  }
+}
+#navigation .inner>ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 32px;
+  list-style: none;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+ol, ul {
+  padding-left: 20px;
+  line-height: 1.5em;
+  font-size: 1rem;
+  font-weight: normal;
+}
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
 }
