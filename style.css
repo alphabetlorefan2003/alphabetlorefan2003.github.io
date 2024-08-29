@@ -1,12 +1,42 @@
-html {
-  background-color: white;
-  color: white;
-  font-family: "Source Sans Pro";
+element.style {
+  --alfWww-_version: 1;
+  --alfWww-page: #fcfcfc;
+  --alfWww-page-colorScheme: light;
+  --alfWww-navbar: #0074bd;
+  --alfWww-navbar-text: #ffffff;
 }
-h1, h2, h3, h4, h5, h6 {
+html, body {
+    background-color: var(--alfWww-page);
+    color-scheme: var(--alfWww-page-colorScheme);
+}
+html, body {
+    display: block;
+    margin: 0;
+    background-color: #4d97ff;
+    padding: 0;
+    color: #575e75;
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+h1, h2, h3 {
   font-family: "Shag Lounge";
 }
-#navigation, .dropdown, .dropdown.with-arrow::before {
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html[Attributes Style] {
+    -webkit-locale: "en-US";
+}
+body {
+    margin: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+#navigation, .dropdown, .dropdown.with-arrow::before, .user-projects-modal .user-projects-modal-title, .transfer-host-modal .transfer-host-title {
     background-color: var(--alfWww-navbar);
     color: var(--alfWww-navbar-text);
 }
@@ -20,15 +50,12 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 3px rgba(0, 0, 0, .25);
     background-color: #0074bd;
     width: 100%;
-    height: 35px;
+    height: 32px;
 }
-style attribute {
-  --alfWww-_version: 1;
-  --alfWww-text: #322f31;
-  --alfWww-headertext: #554747;
-  --alfWww-labeltext: #333333;
-  --alfWww-navbar: #0074bd;
-  --alfWww-navbar-text: #ffffff;
-  --alfWww-navbar-shadowfilter: none;
-  --alfWww-navbar-itemhover: #0f5988;
+nav {
+    display: block;
+}
+nav {
+    display: block;
+    unicode-bidi: isolate;
 }
