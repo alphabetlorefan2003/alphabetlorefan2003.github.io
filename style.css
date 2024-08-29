@@ -7,10 +7,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Shag Lounge";
 }
 .navbar {
-  height: 35px;
+  height: 32px;
   background-color: #0074bd;
   display: flex;
   align-items: center;
+  padding: 0 20px;
 }
 .navbar a {
   color: white;
