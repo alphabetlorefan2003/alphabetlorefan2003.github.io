@@ -12,9 +12,9 @@ html, body {
 html, body {
   display: block;
   margin: 0;
-  background-color: #4d97ff;
+  background-color: white;
   padding: 0;
-  color: #575e75;
+  color: black;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 h1, h2, h3 {
