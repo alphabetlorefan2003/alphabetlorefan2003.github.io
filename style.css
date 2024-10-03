@@ -35,6 +35,7 @@ user agent stylesheet
 body {
   display: block;
   margin: 8px;
+  margin-top: 20px;
 }
 #navigation, .dropdown, .dropdown.with-arrow::before, .user-projects-modal .user-projects-modal-title, .transfer-host-modal .transfer-host-title {
   background-color: var(--alfWww-navbar);
