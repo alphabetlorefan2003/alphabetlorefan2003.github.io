@@ -18,7 +18,7 @@ html, body {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 h1, h2, h3 {
-  font-family: "Shag Lounge";
+  font-family: "Shag Lounge.otf";
 }
 html {
   font-family: sans-serif;
@@ -63,8 +63,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 95%;
-  width: 114.375px;
-  height: 76.25px;
+  width: 28.59375px;
+  height: 38.125px;
 }
 nav {
   display: block;
