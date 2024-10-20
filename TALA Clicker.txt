@@ -1,0 +1,28 @@
+Let's make a game!
+  name:TALA Clicker
+  author:ALF2003
+  by:ALF2003
+  desc:This is a game about clicking letters from TALA, my upcoming Alphabet Lore series, and this will also include letters from my series Alphalore Lore.
+  created:20/10/2024
+  updated:20/10/2024
+  version:0.1
+Settings
+  building cost increase:115%
+  building cost refund:50%
+Resources
+  *cursor
+    name:Cursor
+    desc:Autoclicks once every 10 seconds.
+Upgrades
+  *reinforced
+    name:Reinforced index finger
+    desc:The mouse and cursors are twice as efficient.
+  *carpalTunnel
+    name:Carpal tunnel prevention cream
+    desc:The mouse and cursors are twice as efficient.
+Buildings
+  *cursor|cursors
+    name:Cursor
+    desc:Autoclicks once every 10 seconds.
+    cost:15 letters
+    on tick:give 0.1 letter
